@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/yeungi:latest
+            ghcr.io/${{ github.repository_owner }}/yeung:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.girepository }}
             org.opencontainers.image.description=http server
